@@ -6,7 +6,7 @@
 	--e-global-color-f506719: #FFCD1E;
 	--e-global-color-00316e6: #005019;
 	--e-global-color-7ae3bb5: #D3C1FF;
-	--e-global-color-dfbc587: #0000CF;
+	--e-global-color-dfbc587: #647b23;
 	--e-global-color-53d59d9: #BB7500;
 	--e-global-color-208820b: #00000033;
 	--e-global-color-1b95907: #00000080;
@@ -252,7 +252,7 @@ a:hover {
 
 	.blob-button_blue .elementor-button:before,
 	.blob-button_blue .elementor-button:after {
-		background: #0000cf;
+		background: #647b23;
 	}
 
 	.blob-button_black .elementor-button:before,
