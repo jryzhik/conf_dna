@@ -1,12 +1,12 @@
 .elementor-kit-8 {
 	--e-global-color-primary: #FFFFFF;
 	--e-global-color-secondary: #FF681D;
-	--e-global-color-text: #CBFA92;
+	--e-global-color-text: #eedfa3;
 	--e-global-color-accent: #000000;
 	--e-global-color-f506719: #FFCD1E;
-	--e-global-color-00316e6: #005019;
-	--e-global-color-7ae3bb5: #D3C1FF;
-	--e-global-color-dfbc587: #647b23;
+	--e-global-color-00316e6: #201807;
+	--e-global-color-7ae3bb5: #4ea7ff;
+	--e-global-color-dfbc587: #7a5f32;
 	--e-global-color-53d59d9: #BB7500;
 	--e-global-color-208820b: #00000033;
 	--e-global-color-1b95907: #00000080;
@@ -247,12 +247,12 @@ a:hover {
 
 	.blob-button_darkgreen .elementor-button:before,
 	.blob-button_darkgreen .elementor-button:after {
-		background: #005019;
+		background: #502f00;
 	}
 
 	.blob-button_blue .elementor-button:before,
 	.blob-button_blue .elementor-button:after {
-		background: #647b23;
+		background: #7a5f32;
 	}
 
 	.blob-button_black .elementor-button:before,
@@ -367,7 +367,7 @@ a:hover {
 	font-style: normal;
 	font-weight: 500;
 	font-display: swap;
-	src: url('../../2023/11/Ekran-font.ttf') format('woff2');
+	src: url('../../2023/11/Ekran-Bold-james2.ttf') format('woff2');
 }
 
 /* End Custom Fonts CSS */
@@ -377,7 +377,7 @@ a:hover {
 	font-style: normal;
 	font-weight: 800;
 	font-display: swap;
-	src: url('../../2023/11/Ekran-font.ttf');
+	src: url('../../2023/11/Ekran-Bold-james2.ttf');
 }
 
 /* End Custom Fonts CSS */
