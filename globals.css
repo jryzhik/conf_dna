@@ -6,3 +6,16 @@ h2 {
     text-transform: capitalize !important;
 }
 
+.watch-now-glow {
+    display: inline-block !important; /* Ensures proper rendering */
+    text-decoration-line: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-thickness: 4px !important;
+    animation: pulseUnderline 3s infinite ease-in-out !important;
+}
+
+@keyframes pulseUnderline {
+    0% { text-decoration-color: rgba(255, 170, 0, 0) !important; }
+    50% { text-decoration-color: rgba(255, 170, 0, 1) !important; }
+    100% { text-decoration-color: rgba(255, 170, 0, 0) !important; }
+}
