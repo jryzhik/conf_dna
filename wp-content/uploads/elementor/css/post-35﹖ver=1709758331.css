@@ -4570,26 +4570,26 @@ span.elementor-countdown-label{
     font-style:normal;
     font-weight:700;
     font-display:swap;
-    src:url(../../2023/09/Inter-Bold.woff2) format('woff2'),url(../../2023/09/Inter-Bold.woff) format('woff')
+    src:url(../../2023/09/Inter-Bold.woff2) format('woff2')
 }
 @font-face{
     font-family:inter;
     font-style:normal;
     font-weight:800;
     font-display:swap;
-    src:url(../../2023/09/Inter-ExtraBold.woff2) format('woff2'),url(../../2023/09/Inter-ExtraBold.woff) format('woff')
+    src:url(../../2023/09/Inter-ExtraBold.woff2) format('woff2')
 }
 @font-face{
     font-family:inter;
     font-style:normal;
     font-weight:500;
     font-display:swap;
-    src:url(../../2023/09/Inter-Medium.woff2) format('woff2'),url(../../2023/09/Inter-Medium.woff) format('woff')
+    src:url(../../2023/09/Inter-Medium.woff2) format('woff2')
 }
 @font-face{
     font-family:inter;
     font-style:normal;
     font-weight:600;
     font-display:swap;
-    src:url(../../2023/09/Inter-SemiBold.woff2) format('woff2'),url(../../2023/09/Inter-SemiBold.woff) format('woff')
+    src:url(../../2023/09/Inter-SemiBold.woff2) format('woff2')
 }

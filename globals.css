@@ -19,3 +19,36 @@ h2 {
     50% { text-decoration-color: rgba(255, 170, 0, 1) !important; }
     100% { text-decoration-color: rgba(255, 170, 0, 0) !important; }
 }
+
+/* ---------------------------------------------------------------
+   Hero title (H1)
+   The kit sizes it at clamp(100px … 199px) with a fixed 180px line
+   height, which overflows the hero on laptops and blows past the
+   viewport on phones. Size it against viewport width *and* height so
+   the three lines + CTA always fit above the fold.
+   a10767d = desktop (animated, hidden <768)
+   18ce59e = mobile   (hidden >767)
+   --------------------------------------------------------------- */
+.elementor-element-a10767d .qodef-m-title,
+.elementor-element-18ce59e .elementor-heading-title {
+    font-size: min(10.6vw, 20vh, 10rem) !important;
+    line-height: 0.92 !important;
+    letter-spacing: -0.01em !important;
+    text-wrap: balance;
+}
+
+/* Desktop title box was capped at 750px, which forced "ПРЕЕМСТВЕННОСТЬ"
+   to break mid-word. Give it enough room to sit on one line. */
+.elementor-element-a10767d {
+    width: var(--container-widget-width, min(880px, 60vw)) !important;
+    max-width: min(880px, 60vw) !important;
+    --container-widget-width: min(880px, 60vw) !important;
+}
+
+@media (max-width: 767px) {
+    .elementor-element-18ce59e .elementor-heading-title {
+        font-size: min(15vw, 13vh, 4.5rem) !important;
+        line-height: 0.95 !important;
+        hyphens: manual;
+    }
+}
